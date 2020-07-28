@@ -1,5 +1,6 @@
 const express = require('express')
 const routes = express.Router()
+const multer = require('./app/middlewares/multer')
 const productController = require('./app/controllers/productController')
 
 routes.get('/', function(req, res) {
@@ -10,13 +11,9 @@ routes.get('/', function(req, res) {
 routes.get('/products/create', productController.create)
 routes.get('/products/:id/edit', productController.edit)
 
-routes.post('/products', productController.post)
-routes.put('/products', productController.put)
+routes.post('/products', multer.array("photos", 5), productController.post)
+routes.put('/products', multer.array("photos", 5), productController.put)
 routes.delete('/products', productController.delete)
-
-
-
-
 
 
 
