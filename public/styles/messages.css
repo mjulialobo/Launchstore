@@ -28,3 +28,6 @@
 .messages.error {
   background-color: rgb(218, 65, 65);
 }
+.messages.success {
+  background-color: rgb(28, 143, 13);
+}

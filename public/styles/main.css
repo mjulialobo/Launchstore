@@ -1,7 +1,7 @@
 :root {
-  --primary-color: #1ec21e;
-  --secondary-color: #1f6dfd;
-  --blue-hover: #0d3277;
+  --primary-color:   #f6959d;
+  --secondary-color:#dd4376f6 ;
+  --secondary-hover: #ad0c42;
 }
 
 * {
@@ -50,15 +50,15 @@ body {
 }
 
 .button:hover {
-  background-color: var(--blue-hover);
+  background-color: var(--secondary-hover);
 }
 
 .button.edit {
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
 }
 
 .button.edit:hover {
-  background-color: #127a12;
+  background-color:var(--secondary-hover);
 }
 
 .button.delete {
@@ -66,7 +66,7 @@ body {
 }
 
 .button.delete:hover {
-  background-color: rgb(185, 27, 27);
+  background-color: rgb(235, 33, 33);
 }
 
 /*==HEADER and FOOTER==*/
@@ -82,6 +82,9 @@ footer {
 
 footer {
   margin-top: auto;
+  bottom: 0;
+ position: fixed;
+ padding: 10px 0;
 }
 
 header div.container {
@@ -140,3 +143,6 @@ nav.primary ul li a:hover {
 nav.primary ul li a i {
   margin-right: 8px;
 }
+
+
+
