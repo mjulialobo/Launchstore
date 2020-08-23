@@ -2,7 +2,7 @@
     <img alt="Launchbase" src="https://storage.googleapis.com/golden-wind/bootcamp-launchbase/logo.png" width="300px" />
 </h1>
 <h1 align="center">
-    LAUNCHSTORE
+   <img src="https://user-images.githubusercontent.com/65983895/90971305-2ce3ed00-e4e5-11ea-9750-2170b5bdd2aa.PNG"/>
 </h1>
  <p align="center"> applications developed during Rocketseat's Launchbase bootcamp </P>  
 <h2> <img src= "https://img.icons8.com/plasticine/2x/rocket.png" width="50px" height="50px" align="center"/> What are we creating? </h2>
@@ -38,4 +38,5 @@ $ npm start
 
 <p> Note: gif distorts images and colors </p>
 <p> still in progress </p>
+<img src="https://user-images.githubusercontent.com/65983895/90971284-f3ab7d00-e4e4-11ea-86d0-1690dbde65ce.gif"/>
 
