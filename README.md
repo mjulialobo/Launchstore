@@ -1,6 +1,4 @@
-<h1 align="center">
-       <img alt="Launchbase" src="https://storage.googleapis.com/golden-wind/bootcamp-launchbase/logo.png" width="200px" />
- </h1>
+
 <h1 align="center">
    <img src="https://user-images.githubusercontent.com/65983895/90971305-2ce3ed00-e4e5-11ea-9750-2170b5bdd2aa.PNG"/>
 </h1>
